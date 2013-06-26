@@ -8,7 +8,15 @@
 </head>
 <body>
 
+  <%= link_to "MakerSquare", "http://themakersquare.com" %> | 
+  <%= link_to "User List", "/users" %> |
+  <%= link_to "Product List", "/products" %>
+
+  <%= params[:format] %>
+  <%= params.inspect %>
+
 <%= yield %>
 
 </body>
 </html>
+
